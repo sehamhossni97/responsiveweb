@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  <style>
+  *{
+  
+  margin:0px;
+  padding:0px;
+  }
+  body{
+   background-image: url('photoes/6.jpg');
+      
+        background-size: cover;
+      background-attachment:fixed;
+	       font-size: 20vw;
+     
+  
+  }
+  h1{
+  font-size:50px;
+  color:white;
+  
+  }
+  /* img{
+  width:130px;
+  height:130px;
+  border-radius:100px;
+  margin-left:200px;
+  transition:1s;
+  }
+  img:hover{
+ -webkit-transform:scale(1.8);
+  
+  } */
+  .form-control{
+  background:transparent;
+  border-radius:0px;
+  border:0px;
+  border-bottom:2px solid rgb(230, 173, 200);
+  font-size: 21px;
+  margin-top: 15px;
+  padding:21px;
+  color:white;
+  
+  }
+  .btn-info{
+margin-top: 20px;
+font-size:21px;
+background:transparent;
+
+  }
+  .col-mid-6{
+box-shadow: 1px 1px 50px 10px black;
+border-radius: 1px 100px 1px 100px;
+margin-top: 100px;
+height: 470px;
+background:rgba(0, 0, 0,0.6) ;
+
+  }
+  </style>
+  </head>
+  <body>
+  <div class="container">
+  <div class="row">
+  <div class="col-mid-3"></div>
+  <div class="col-mid-6">
+  <h1 class="text-center">Register</h1>
+
+  <input type="text" class="form-control" name="Name" placeholder="Enter  your  Name">
+  <input type="password" class="form-control" name="Pasword" placeholder="Password">
+  <input type="password" class="form-control" name="Pasword" placeholder="Repeat Password"> 
+  <input type="email" class="form-control" name="Email" placeholder="Enter  your  Email">
+  <input type="phoneNumber" placeholder="Phone number" class="form-control" data-bs-toggle="tooltip" data-bs-placement="bottom" title="please fill this input"  >
+  <input type="date" id="birthDate" class="form-control" data-bs-toggle="tooltip" data-bs-placement="bottom" title="please fill this input"  >
+
+<button type="button" class="btn btn-secondary btn-lg btn-block">REGISTER</button>
+    
+  </div>
+  <div class="col-mid-3"></div>
+  
+  </div>
+  
+  </div>
+  <script>
+             var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+
+  </script>
+  </body>
+  </html>

@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    font-size: 15  ;
+}
+
+#subheader {background: #19191a;border: 3px solid black; color: #fff; padding-top: 10px;}
+#subheader a {color: #eee;}
+#subheader a:hover {color: #fff;}
+.row::after {
+    content: "";
+    clear: both;
+}
+#footer {border-top:#55a2a6 4px solid; background-color: black; color: white;}
+.icon :hover{
+   background-color: black;
+   color: white;
+}
+.ca-icon{
+    font-size: 40px;
+}
+[class*="col-"] {
+    text-align: center;
+    float: left;
+    padding: 15px;
+    
+}
+
+.col-1 {
+    width: 8.33%;
+    /* float: left; */
+    /* 100/12*1 */
+}
+
+.col-2 {
+    width: 16.66%;
+    /* 100/12*2 */
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+     
+}
+#aa a:hover{
+    color:white;
+}
+#bb a:hover{
+    color:white;
+}
+#cc a:hover{
+    color:white;
+}
+#dd a:hover{
+    color:white;
+}
+#pho{
+    box-shadow: 1px 1px 5px 5px black;
+}
+#artwork{
+    box-shadow: 1px 1px 5px 5px black;
+}
+#logo{
+    box-shadow: 1px 1px 5px 5px black;
+}
